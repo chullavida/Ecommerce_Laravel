@@ -61,3 +61,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 "# Ecommerce_Laravel" 
 "# Ecommerce_Laravel"  git init git add README.md git commit -m "primer commit" git branch -M main git remote add origin https://github.com/chullavida/Ecommerce_Laravel.git  git push -u origin main
 "# Ecommerce_Laravel" 
+"# Ecommerce_Laravel" 
+# ecomlar12
