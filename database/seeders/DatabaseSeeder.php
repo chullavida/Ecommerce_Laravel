@@ -3,10 +3,16 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-use App\Models\Category;
 use App\Models\Brand;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Category;
+use App\Models\OrderItem;
 use Illuminate\Database\Seeder;
+use Database\Seeders\OrderSeeder;
+use Database\Seeders\ReviewSeeder;
+use Database\Seeders\WishListSeeder;
+use Database\Seeders\OrderItemSeeder;
+use Database\Seeders\ShippingAddressSeeder;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class DatabaseSeeder extends Seeder
 {
@@ -24,6 +30,12 @@ class DatabaseSeeder extends Seeder
             CategorySeeder::class,
             BrandSeeder::class,
             ProductSeeder::class,
+            OrderSeeder::class,
+            OrderItemSeeder::class,
+            PaymentSeeder::class,
+            ReviewSeeder::class,
+            WishListSeeder::class,
+            ShippingAddressSeeder::class,
         ]);
     }
 }
